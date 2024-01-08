@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background-color: aqua; */
+}
+
+/* Global Tags */
+h2{
+    font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(35, 35, 85);
+}
+
+
+/* Home */
+#home {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),
+      url("https://wallpapercave.com/wp/wp2879017.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(250, 64, 64);
+  }
+  #home h1{
+    color: #ed2929;
+    font-size: 3.2rem;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px blue;
+  }
+  #home h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px rgb(255, 34, 0);
+  
+  }
+  #home p {
+    width: 50%;
+    color: #fff;
+    font-size: 1.2rem;
+  
+    line-height: 25px;
+  }
+  #expert{
+     padding: 8vw 8vw 8vw 8vw;
+    background-image: url("https://wallpaper.dog/large/17056595.jpg");
+    text-align: center; 
+  }
+  #experts .h1{
+    color: #ed2929;
+    font-size: 3.2rem;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px blue;
+  }
+  
+  #expert .expert-box{
+    display: grid;
+    background-image: url("https://wallpaper.dog/large/17056595.jpg");
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+  
+  }
+  
+  #expert .expert-box .profile{
+    background-color: #f7ecec;
+    padding: 30px 10px;
+    
+  }
+  
